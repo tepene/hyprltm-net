@@ -4,6 +4,9 @@ A high-performance network management interface for **Hyprland**, powered by **R
 
 Easily scan, connect, and manage your Wi-Fi, Ethernet, and VPN connections from a sleek Rofi menu, designed for speed and simplicity.
 
+https://github.com/user-attachments/assets/7da1d5b8-d8a1-47f4-8809-e82efc078ab2
+
+
 ## ✨ Features
 
 - **Interactive Security:** Secure prompts for password entry with hidden characters and a toggle to show/hide the key.
