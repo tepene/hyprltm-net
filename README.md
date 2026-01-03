@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/7da1d5b8-d8a1-47f4-8809-e82efc078ab2
     - **VPN:** Modular support for **Wireguard** and **OpenVPN**, including the ability to import profile files directly through the interface.
     - **Status:** View real-time connection details, local/public IP addresses, and DNS info.
 - **Connection Management:** Dedicated menu to **Edit Passwords**, **Rename** connections, or **Forget/Delete** old profiles.
-- **Lightweight & Fast:** Zero background daemon overhead—runs only when triggered.
+- **Lightweight & Fast:** Zero background process overhead—runs only when triggered.
 
 
 ## 🛠 Prerequisites
