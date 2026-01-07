@@ -1,0 +1,138 @@
+<h1 align="center">
+  <img src="hyprltm-net.svg" width="80" alt="HyprLTM-Net Logo"/>
+  <br>
+  HyprLTM-Net
+</h1>
+
+<p align="center">
+  <strong>A high-performance network management interface for Hyprland, powered by Rofi and NetworkManager.</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/hyprltm/hyprltm-net/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/hyprltm/hyprltm-net?style=for-the-badge&logo=starship&color=bd93f9&logoColor=f8f8f2&labelColor=282a36"/></a>
+  <a href="https://github.com/hyprltm/hyprltm-net/commits/main"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/hyprltm/hyprltm-net?style=for-the-badge&logo=github&color=50fa7b&logoColor=f8f8f2&labelColor=282a36"/></a>
+  <a href="https://github.com/hyprltm/hyprltm-net/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/hyprltm/hyprltm-net?style=for-the-badge&logo=gnu&color=ff79c6&logoColor=f8f8f2&labelColor=282a36"/></a>
+  <a href="https://github.com/hyprltm/hyprltm-net"><img alt="Repo Size" src="https://img.shields.io/github/repo-size/hyprltm/hyprltm-net?style=for-the-badge&logo=files&color=8be9fd&logoColor=f8f8f2&labelColor=282a36"/></a>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7da1d5b8-d8a1-47f4-8809-e82efc078ab2" alt="Demo" width="700"/>
+</p>
+
+---
+
+## ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 📶 Wi-Fi Management
+- Scan for nearby networks
+- Connect to new or hidden SSIDs
+- Manage saved connections & passwords
+
+### 🔌 Wired Profiles
+- Switch between Ethernet configurations
+- View connection status
+
+</td>
+<td width="50%">
+
+### 🔐 VPN Support
+- **WireGuard** & **OpenVPN** integration
+- Import `.conf` or `.ovpn` files directly
+
+### ⚙️ Advanced Controls
+- **Airplane Mode** toggle
+- **QR Code Sharing** for Wi-Fi
+- **Hotspot** creation
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Prerequisites
+
+| Package | Purpose |
+| :--- | :--- |
+| `networkmanager` | Backend connection management (`nmcli`) |
+| `rofi-wayland` | The graphical menu engine |
+| `qrencode` | Generating Wi-Fi QR codes |
+| `Nerd Fonts` | Required for icons (e.g., *JetBrains Mono Nerd Font*) |
+| `imv` or `feh` | *(Optional)* Displaying QR codes |
+| `libnotify` | *(Optional)* Desktop notifications |
+
+---
+
+## 🚀 Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/hyprltm/hyprltm-net.git
+cd hyprltm-net
+```
+
+### 2. Run the Installer
+The install script will **detect your distribution** (Arch, Fedora, openSUSE, NixOS) and offer to install missing dependencies.
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+<details>
+<summary><strong>Manual Installation</strong></summary>
+
+If you prefer to install manually:
+```bash
+mkdir -p ~/.local/bin && cp hyprltm-net.sh ~/.local/bin/hyprltm-net && chmod +x ~/.local/bin/hyprltm-net
+mkdir -p ~/.config/rofi/themes/ && cp *.rasi ~/.config/rofi/themes/
+```
+</details>
+
+### 3. Configure Keybind & Waybar
+
+**Hyprland Keybind:** Add to `~/.config/hypr/hyprland.conf`:
+```ini
+bind = SUPER, N, exec, hyprltm-net
+```
+
+**Waybar:** Add to your `network` module in `~/.config/waybar/config.jsonc`:
+```json
+"on-click": "hyprltm-net"
+```
+
+---
+
+## 🎨 Theming
+
+HyprLTM-Net uses the **LTMNight** color palette. Customize appearance by editing `~/.config/rofi/themes/ltmnight.rasi`.
+
+| Variable | Description | Default |
+| :--- | :--- | :--- |
+| `@ltmnight9` | Primary Accent (Purple) | `#bd93f9` |
+| `@ltmnight0` | Background | `#282a36` |
+| `@ltmnight2` | Foreground | `#f8f8f2` |
+| `@ltmnight7` | Success (Green) | `#50fa7b` |
+
+---
+
+## ☕ Support the Project
+
+If you find this tool helpful, consider supporting its development!
+
+<a href="https://www.buymeacoffee.com/linuxtechmore">
+  <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=linuxtechmore&button_colour=bd93f9&font_colour=f8f8f2&font_family=Cookie&outline_colour=f8f8f2&coffee_colour=ffdd00" alt="Buy Me A Coffee" height="40"/>
+</a>
+
+---
+
+## 📄 License
+
+**Created by [Djalel Oukid (sniper1720)](https://github.com/sniper1720)** and distributed under the **GPL-3.0 License**.
+
+<p align="center">
+  <a href="https://www.linuxtechmore.com">🌐 LinuxTechMore.com</a>
+</p>
