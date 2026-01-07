@@ -146,6 +146,4 @@ If you find this tool helpful, consider supporting its development!
 
 **Created by [Djalel Oukid (sniper1720)](https://github.com/sniper1720)** and distributed under the **GPL-3.0 License**.
 
-<p align="center">
-  <a href="https://www.linuxtechmore.com">🌐 LinuxTechMore.com</a>
-</p>
+*Check out more Linux & Open Source content on my [website!](https://www.linuxtechmore.com)*
