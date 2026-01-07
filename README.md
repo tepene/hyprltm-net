@@ -15,9 +15,7 @@
   <a href="https://github.com/hyprltm/hyprltm-net"><img alt="Repo Size" src="https://img.shields.io/github/repo-size/hyprltm/hyprltm-net?style=for-the-badge&color=8be9fd&labelColor=282a36"/></a>
 </p>
 
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/7da1d5b8-d8a1-47f4-8809-e82efc078ab2" controls="controls" style="max-width: 700px;"></video>
-</p>
+https://github.com/user-attachments/assets/7da1d5b8-d8a1-47f4-8809-e82efc078ab2
 
 ---
 
@@ -50,6 +48,15 @@
 
 </td>
 </tr>
+<tr>
+<td colspan="2">
+
+### 📦 Smart Installation
+- **Distro Detection**: Auto-installs dependencies (Arch, Fedora, openSUSE, NixOS)
+- **Desktop Entry**: Creates launcher menu entry & icon
+
+</td>
+</tr>
 </table>
 
 ---
@@ -76,7 +83,13 @@ cd hyprltm-net
 ```
 
 ### 2. Run the Installer
-The install script will **detect your distribution** (Arch, Fedora, openSUSE, NixOS) and offer to install missing dependencies.
+The install script will **detect your distribution** and offer to install missing dependencies.
+
+It then provides **three interactive options**:
+1.  **Desktop Entry** – Auto-creates a launcher menu entry & icon.
+2.  **Keybind Setup** – Shows instructions to add a Hyprland keybind.
+3.  **Waybar Setup** – Shows instructions to configure Waybar.
+
 ```bash
 chmod +x install.sh
 ./install.sh
@@ -90,11 +103,8 @@ If you prefer to install manually:
 mkdir -p ~/.local/bin && cp hyprltm-net.sh ~/.local/bin/hyprltm-net && chmod +x ~/.local/bin/hyprltm-net
 mkdir -p ~/.config/rofi/themes/ && cp *.rasi ~/.config/rofi/themes/
 ```
-</details>
 
-### 3. Configure Keybind & Waybar
-
-**Hyprland Keybind:** Add to `~/.config/hypr/hyprland.conf`:
+**Keybind:** Add to `~/.config/hypr/hyprland.conf`:
 ```ini
 bind = SUPER, N, exec, hyprltm-net
 ```
@@ -103,6 +113,7 @@ bind = SUPER, N, exec, hyprltm-net
 ```json
 "on-click": "hyprltm-net"
 ```
+</details>
 
 ---
 
