@@ -134,11 +134,12 @@ HyprLTM-Net uses the **LTMNight** color palette. Customize appearance by editing
 
 ## ☕ Support the Project
 
-If you find this tool helpful, consider supporting its development!
+If you find this tool helpful and want to support its development and the **HyprLTM** ecosystem, consider supporting me through the following platforms:
 
-<a href="https://www.buymeacoffee.com/linuxtechmore" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
-</a>
+[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=linuxtechmore&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/linuxtechmore)
+
+
+Every bit of support helps keep the project alive and ensures I can spend more time developing open source tools for the Linux community!
 
 ---
 
