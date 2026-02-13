@@ -224,9 +224,9 @@ tr_edit_password_prompt='Enter new password:'
 # --- Global Variables ---
 program_name="$(basename "$0")"
 LOADING_ROFI_PID=""
-mapfile -t interfaces < <(nmcli --colors no -t -f TYPE,DEVICE device status | awk -F ':' '$1 == "wifi" {print $2}')
+mapfile -t interfaces < <(nmcli --colors no -t -f TYPE,DEVICE device status | awk -F ':' '$1 == "wifi" || $1 == "ethernet" {print $2}')
 if [ -z "${interfaces[0]}" ]; then
-	echo "$program_name: No Wi-Fi interfaces detected." >&2
+	echo "$program_name: No Wi-Fi or Ethernet interfaces detected." >&2
 	exit 2
 fi
 interface_to_use="${interfaces[0]}"
