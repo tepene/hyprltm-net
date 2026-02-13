@@ -22,7 +22,10 @@ fi
 
 # --- Rofi Theme Arguments ---
 # Use a dedicated Rofi theme file for the network manager script.
-ROFI_NETWORK_MANAGER_THEME="$HOME/.config/rofi/themes/hyprltm-net.rasi"
+for _theme in "${HOME}/.config/rofi/themes/hyprltm-net.rasi" "/etc/xdg/rofi/themes/hyprltm-net.rasi"; do
+    [[ -f "$_theme" ]] && ROFI_NETWORK_MANAGER_THEME="$_theme" && break
+done
+unset _theme
 
 # --- Icon Variables (Nerd Fonts - Minimalist & Beautiful) ---
 # --- Icons: General UI ---
