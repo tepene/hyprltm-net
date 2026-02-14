@@ -21,13 +21,13 @@ https://github.com/user-attachments/assets/7da1d5b8-d8a1-47f4-8809-e82efc078ab2
 
 ![Gradient](assets/gradient.svg)
 
-## ✨ Features
+## Features
 
 <table>
 <tr>
 <td width="50%">
 
-### 📶 Wi-Fi Management
+### Wi-Fi Management
 - Scan for nearby networks
 - Connect to new or hidden SSIDs
 - Manage saved connections & passwords
@@ -39,11 +39,11 @@ https://github.com/user-attachments/assets/7da1d5b8-d8a1-47f4-8809-e82efc078ab2
 </td>
 <td width="50%">
 
-### 🔐 VPN Support
+### VPN Support
 - **WireGuard** & **OpenVPN** integration
 - Import `.conf` or `.ovpn` files directly
 
-### ⚙️ Advanced Controls
+### Advanced Controls
 - **Airplane Mode** toggle ![New](https://img.shields.io/badge/✨-NEW-%2350fa7b?style=flat-square&labelColor=282a36)
 - **QR Code Sharing** for Wi-Fi ![New](https://img.shields.io/badge/✨-NEW-%2350fa7b?style=flat-square&labelColor=282a36)
 - **Hotspot** creation ![New](https://img.shields.io/badge/✨-NEW-%2350fa7b?style=flat-square&labelColor=282a36)
@@ -53,7 +53,7 @@ https://github.com/user-attachments/assets/7da1d5b8-d8a1-47f4-8809-e82efc078ab2
 <tr>
 <td colspan="2">
 
-### 📦 Smart Installation
+### Smart Installation
 - **Distro Detection**: Auto-installs dependencies (Arch, Fedora, openSUSE, NixOS)
 - **Desktop Entry**: Creates launcher menu entry & icon
 
@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/7da1d5b8-d8a1-47f4-8809-e82efc078ab2
 </table>
 
 
-## 🌳 Menu Structure
+## Menu Structure
 
 ```
 Main Menu
@@ -122,7 +122,7 @@ Main Menu
 └── Airplane Mode (Toggle)
 ```
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 | Package | Purpose |
 | :--- | :--- |
@@ -133,7 +133,7 @@ Main Menu
 
 ![Gradient](assets/gradient.svg)
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -176,7 +176,7 @@ bind = SUPER, N, exec, hyprltm-net
 
 ![Gradient](assets/gradient.svg)
 
-## 🎨 Theming
+## Theming
 
 HyprLTM-Net uses the **LTMNight** color palette. Customize appearance by editing `~/.config/rofi/themes/ltmnight.rasi`.
 
@@ -189,7 +189,7 @@ HyprLTM-Net uses the **LTMNight** color palette. Customize appearance by editing
 
 ![Gradient](assets/gradient.svg)
 
-## ☕ Support the Project
+## Support the Project
 
 If you find this tool helpful and want to support its development and the **HyprLTM** ecosystem, consider supporting me through the following platforms:
 
@@ -200,7 +200,7 @@ Every bit of support helps keep the project alive and ensures I can spend more t
 
 ![Gradient](assets/gradient.svg)
 
-## 📄 License
+## License
 
 **Created by [Djalel Oukid (sniper1720)](https://github.com/sniper1720)** and distributed under the **GPL-3.0 License**.
 
