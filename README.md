@@ -32,7 +32,7 @@ https://github.com/user-attachments/assets/7da1d5b8-d8a1-47f4-8809-e82efc078ab2
 - Connect to new or hidden SSIDs
 - Manage saved connections & passwords
 
-### 🔌 Wired Profiles
+### Wired Profiles
 - Switch between Ethernet configurations
 - View connection status
 
@@ -44,9 +44,9 @@ https://github.com/user-attachments/assets/7da1d5b8-d8a1-47f4-8809-e82efc078ab2
 - Import `.conf` or `.ovpn` files directly
 
 ### Advanced Controls
-- **Airplane Mode** toggle ![New](https://img.shields.io/badge/✨-NEW-%2350fa7b?style=flat-square&labelColor=282a36)
-- **QR Code Sharing** for Wi-Fi ![New](https://img.shields.io/badge/✨-NEW-%2350fa7b?style=flat-square&labelColor=282a36)
-- **Hotspot** creation ![New](https://img.shields.io/badge/✨-NEW-%2350fa7b?style=flat-square&labelColor=282a36)
+- **Airplane Mode** toggle
+- **QR Code Sharing** for Wi-Fi
+- **Hotspot** creation
 
 </td>
 </tr>
